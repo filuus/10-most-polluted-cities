@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <script src="https://kit.fontawesome.com/f690f8ba38.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="search-modal">
+        <div class="search-inputs">
+            <p class="message hidden">*You can enter the name of only one of four countries (France, Germany, Poland, Spain).</p>
+            <input type="text" placeholder='Give the name of country'>
+            <ul id="countries">
+
+            </ul>
+            <a id="modal-search-button" class="search-button active" href="#"><i class="fas fa-search"></i></a>
+        </div>
+    </div>
+    <div class="main_container">
+        <a id="corner-search-button" class="search-button in-the-corner black-active" href="#"><i class="fas fa-search"></i></a>
+        <ul id="cities">
+            
+        </ul>
+    </div>
+    <div class="description-modal hidden">
+        <div class="description-content"></div>
+        <a id="corner-back-button" class="button in-the-corner active" href="#"><i class="fas fa-times"></i></a>
+        <a id="prev-button" class="button prev" href="#"><i class="fas fa-arrow-left"></i></a>
+        <a id="next-button" class="button next" href="#"><i class="fas fa-arrow-right"></i></a>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
